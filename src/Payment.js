@@ -8,11 +8,13 @@ import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 import axios from './axios';
 import { db } from "./firebase";
-
+import Test_push_api from "./Test_push_api";
 function Payment() {
     const [{ basket, user }, dispatch] = useStateValue();
     const history = useHistory();
+    ////
 
+    ////
     const stripe = useStripe();
     const elements = useElements();
     const [address, setAddress] = useState('');
@@ -36,6 +38,17 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
+/////////
+function abc(a) {
+    console.log("Veltundi >>>>>>>>");
+    if(a >= 500001 && a <= 502329){
+      return;
+    }
+    else {
+      alert("Pin Code Sakkaga Pettu Bey");
+    }
+}
+///////////
     console.log('THE SECRET IS >>>', clientSecret)
     console.log('👱', user)
 
@@ -71,7 +84,11 @@ function Payment() {
                 Customeraddress: address,
                 created: paymentIntent.created
               })
-
+            ///
+             console.log('Disgrce >>>>>>>>>>>')
+             //console.log(basket)
+             console.log(typeof (JSON.stringify(basket)));
+            ///
             setSucceeded(true);
             setError(null)
             setProcessing(false)
@@ -91,7 +108,6 @@ function Payment() {
         setDisabled(event.empty);
         setError(event.error ? event.error.message : "");
     }
-
     return (
         <div className='payment'>
             <div className='payment__container'>
@@ -105,14 +121,14 @@ function Payment() {
                 {/* Payment section - delivery address */}
                 <div className='payment__section'>
                     <div className='payment__title'>
-                        <h3>Delivery Address</h3>
+                        <h3>Delivery Address (Only Hyderabad Pincodes)</h3>
                     </div>
                     <div className='payment__address'>
                         <p>{user?.email}</p>
                         {/*<p>69 Kaada</p>
                         <p>Jogipet, TS</p>*/}
                         <form>
-                            <input type='text' value={address} onChange={e => setAddress(e.target.value)} />
+                            <input type="number" value={address} onBlur={e => abc(e.target.value)} onChange={e => setAddress(e.target.value)} />
                         </form>
                     </div>
                 </div>
@@ -122,6 +138,7 @@ function Payment() {
                     <div className='payment__title'>
                         <h3>Review items and delivery</h3>
                     </div>
+                    
                     <div className='payment__items'>
                         {basket.map(item => (
                             <CheckoutProduct
@@ -158,7 +175,7 @@ function Payment() {
                                         thousandSeparator={true}
                                         prefix={"₹"}
                                     />
-                                    <button disabled={processing || disabled || succeeded}>
+                                    <button disabled={processing || disabled || succeeded} onClick={e=> Test_push_api(user?.uid,basket.length,basket,address)}>
                                         <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                     </button>
                                 </div>

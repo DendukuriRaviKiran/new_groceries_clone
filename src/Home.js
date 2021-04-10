@@ -16,7 +16,9 @@ function Home() {
   const [bachupally,setBachupally]=useState([]);
   const [loading, setLoading] = useState(false);
   const ref = db.collection("sample");
+  ////
   
+  ////
   function getSchools() {
     setLoading(true);
     ref.onSnapshot( (querySnapshot) => {
@@ -26,6 +28,8 @@ function Home() {
       });
       setBachupally(items);
       setLoading(false);
+      ///
+      ///
     });
   } 
   useEffect(() => {
@@ -45,7 +49,7 @@ function Home() {
 
             <div className="home_row">
                 <Product
-                    id="12321341"
+                    id="123213566699"
                     title="Nestle Maggi 5 Pack "
                     price={60}
                     rating={5}
@@ -92,11 +96,11 @@ function Home() {
                     rating={4}
                     image={atta}
                 />
-            </div>
-            <div className="home_new">
+            </div>   
+            <div className="home_man">
             {bachupally.map((bachu) => (
-              
                 <Product
+
                     id={bachu.id}
                     title={bachu.title}
                     price={bachu.price}
@@ -105,8 +109,8 @@ function Home() {
                 />
                 ))
               }
-              </div>
-            
+            </div>
+
           </div>
         </div>
     )

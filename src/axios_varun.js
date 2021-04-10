@@ -2,8 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   // THE API (cloud function) URL
-  baseURL: 'https://backendstripedk.herokuapp.com' 
-  //'http://localhost:5001/challenge-9ec4c/us-central1/api'
+  baseURL: 'https://newpybackend.herokuapp.com'
   //'https://helloworldravipracticeapi.herokuapp.com/api'
   //'http://localhost:5001/challenge-9ec4c/us-central1/api'
   //'http://localhost:5001/challenge-9ec4c/us-central1/api'

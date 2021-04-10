@@ -3,11 +3,15 @@ import { db } from "./firebase";
 import './Orders.css'
 import { useStateValue } from "./StateProvider";
 import Order from './Order'
-
+import axios from 'axios';
+//import test_push_api from "./test_push_api";
 function Orders() {
   const [{ basket, user }, dispatch] = useStateValue();
   const [orders, setOrders] = useState([]);
 
+  ////
+ // test_push_api(basket);
+  /////
   useEffect(() => {
     if(user) {
         db
@@ -37,11 +41,12 @@ function Orders() {
     }
 
   }, [user])
+  ///////////
 
+  //////////////
     return (
         <div className='orders'>
             <h1>Your Orders</h1>
-
             <div className='orders__order'>
                 {orders?.map(order => (
                     <Order order={order} />
