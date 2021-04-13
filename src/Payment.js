@@ -178,7 +178,7 @@ function abc(a) {
                                     <button disabled={processing || disabled || succeeded} onClick={e=> Test_push_api(user?.uid,basket.length,basket,address)}>
                                         <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                     </button>
-                                    <h2>If you just want free credits just type 4242 4242 4242 4242 04 / 24 242 42424 in the above payment section</h1>
+                                    <h2>If you just want free credits just type 4242 4242 4242 4242 04 / 24 242 42424 in the above payment section</h2>
                                 </div>
 
                                   {/* Errors */}

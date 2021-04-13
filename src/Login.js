@@ -61,7 +61,7 @@ function Login() {
                 </p>
 
                 <button onClick={register} className='login_registerButton'>Create your Rocket Account</button>
-                <h2>Enter your email with desired password(min 6 characters) and just click on create account button</h1>
+                <h2>Enter your email with desired password(min 6 characters) and just click on create account button</h2>
             </div>
         </div>
     )
