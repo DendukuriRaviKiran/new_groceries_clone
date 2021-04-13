@@ -34,6 +34,9 @@ function Home() {
   } 
   useEffect(() => {
     getSchools();
+    setTimeout(() => {
+      setTimedPopup(true);
+    },3000);
   },[]);
   if (loading) {
     return <h1>Loading </h1>
@@ -110,7 +113,17 @@ function Home() {
                 ))
               }
             </div>
-
+        <Popup trigger={timedPopup} setTrigger={setTimedPopup}> 
+        <h3>Instructions to Site</h3>
+        <p>
+          1. Click on Sign In and complete sign up 
+          2. Order Desired Items Like how you would do in real life feel free to go down the items as you have more
+          better chance to win for unique items.
+          3. Click the basket icon 
+          4. Proceed to checkout 
+          5. Pay with free credits and leave
+        </p>
+      </Popup>
           </div>
         </div>
     )
