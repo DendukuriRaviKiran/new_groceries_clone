@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css'
+import './Signup.css'
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
 import logo from './images/rocket-ship-logo.jpg';
@@ -52,16 +52,14 @@ function Login() {
                     <h5>Password</h5>
                     <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <button type='submit' onClick={signIn} className='login_signInButton'>Sign In</button>
+                    <button type='submit' onClick={register} className='login_signInButton'>Sign Up</button>
                 </form>
 
                 <p>
                     By signing-in you agree to the Rocket Singh Conditions of Use and Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
-                <Link to='/signup'>
-                <button className='login_registerButton'>Create your Rocket Account</button>
-                </Link>
+                <h2>Enter your email with desired password(min 6 characters) and just click on create account button</h2>
             </div>
         </div>
     )
