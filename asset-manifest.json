@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/new_groceries_clone/static/css/main.ee175f7d.chunk.css",
-    "main.js": "/new_groceries_clone/static/js/main.b69cdec6.chunk.js",
-    "main.js.map": "/new_groceries_clone/static/js/main.b69cdec6.chunk.js.map",
-    "runtime-main.js": "/new_groceries_clone/static/js/runtime-main.79e5d175.js",
-    "runtime-main.js.map": "/new_groceries_clone/static/js/runtime-main.79e5d175.js.map",
-    "static/js/2.d927b671.chunk.js": "/new_groceries_clone/static/js/2.d927b671.chunk.js",
-    "static/js/2.d927b671.chunk.js.map": "/new_groceries_clone/static/js/2.d927b671.chunk.js.map",
-    "static/js/3.3e06374e.chunk.js": "/new_groceries_clone/static/js/3.3e06374e.chunk.js",
-    "static/js/3.3e06374e.chunk.js.map": "/new_groceries_clone/static/js/3.3e06374e.chunk.js.map",
+    "main.css": "/new_groceries_clone/static/css/main.168362da.chunk.css",
+    "main.js": "/new_groceries_clone/static/js/main.40fff3f7.chunk.js",
+    "main.js.map": "/new_groceries_clone/static/js/main.40fff3f7.chunk.js.map",
+    "runtime-main.js": "/new_groceries_clone/static/js/runtime-main.01af34c8.js",
+    "runtime-main.js.map": "/new_groceries_clone/static/js/runtime-main.01af34c8.js.map",
+    "static/js/2.45feb513.chunk.js": "/new_groceries_clone/static/js/2.45feb513.chunk.js",
+    "static/js/2.45feb513.chunk.js.map": "/new_groceries_clone/static/js/2.45feb513.chunk.js.map",
+    "static/js/3.84903bdb.chunk.js": "/new_groceries_clone/static/js/3.84903bdb.chunk.js",
+    "static/js/3.84903bdb.chunk.js.map": "/new_groceries_clone/static/js/3.84903bdb.chunk.js.map",
     "index.html": "/new_groceries_clone/index.html",
-    "static/css/main.ee175f7d.chunk.css.map": "/new_groceries_clone/static/css/main.ee175f7d.chunk.css.map",
-    "static/js/2.d927b671.chunk.js.LICENSE.txt": "/new_groceries_clone/static/js/2.d927b671.chunk.js.LICENSE.txt",
+    "static/css/main.168362da.chunk.css.map": "/new_groceries_clone/static/css/main.168362da.chunk.css.map",
+    "static/js/2.45feb513.chunk.js.LICENSE.txt": "/new_groceries_clone/static/js/2.45feb513.chunk.js.LICENSE.txt",
     "static/media/Naughtyamericalogo.fa5737dc.png": "/new_groceries_clone/static/media/Naughtyamericalogo.fa5737dc.png",
     "static/media/home_backgroundImage.24b8ea97.jpg": "/new_groceries_clone/static/media/home_backgroundImage.24b8ea97.jpg",
     "static/media/rocket-ship-logo.24024aff.jpg": "/new_groceries_clone/static/media/rocket-ship-logo.24024aff.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79e5d175.js",
-    "static/js/2.d927b671.chunk.js",
-    "static/css/main.ee175f7d.chunk.css",
-    "static/js/main.b69cdec6.chunk.js"
+    "static/js/runtime-main.01af34c8.js",
+    "static/js/2.45feb513.chunk.js",
+    "static/css/main.168362da.chunk.css",
+    "static/js/main.40fff3f7.chunk.js"
   ]
 }
