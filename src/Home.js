@@ -119,10 +119,18 @@ function Home() {
         <h3>Instructions to Site</h3>
         <p>
           1. Click on Sign In and complete sign up 
+        </p>
+        <p>
           2. Order Desired Items Like how you would do in real life feel free to go down the items as you have more
           better chance to win for unique items.
+        </p>
+        <p>
           3. Click the basket icon 
+        </p>
+        <p>
           4. Proceed to checkout 
+        </p>
+        <p>
           5. Pay with free credits and leave
         </p>
       </Popup>
