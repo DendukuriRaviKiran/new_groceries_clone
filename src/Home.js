@@ -17,6 +17,7 @@ function Home() {
   const [bachupally,setBachupally]=useState([]);
   const [loading, setLoading] = useState(false);
   const ref = db.collection("sample");
+  const [timedPopup,setTimedPopup] = useState(false);
   ////
   
   ////
