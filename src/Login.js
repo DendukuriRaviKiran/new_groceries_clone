@@ -60,7 +60,7 @@ function Login() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
                 <Link to='/signup'>
-                <button className='login_registerButton'>Create your Rocket Account</button>
+                <button className='login_registerButton'>Sign Up</button>
                 </Link>
             </div>
         </div>

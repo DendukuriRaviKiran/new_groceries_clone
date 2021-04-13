@@ -43,7 +43,7 @@ function Login() {
             </Link>
 
             <div className='login_container'>
-                <h1>Sign-in</h1>
+                <h1>Sign-Up</h1>
 
                 <form>
                     <h5>E-mail</h5>
