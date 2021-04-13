@@ -10,6 +10,7 @@ import tomatoes from './images/tomato_250gm.png';
 import bananas from './images/banana_dozen.png';
 import atta from './images/atta_bigbag.png';
 import { useStateValue } from "./StateProvider";
+import Popup from './Popup';
 import { db } from "./firebase";
 function Home() {
   /////////////////////////////////////////////////////
