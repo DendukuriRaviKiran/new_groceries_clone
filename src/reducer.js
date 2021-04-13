@@ -11,10 +11,10 @@ const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
     case 'ADD_TO_BASKET':
+      alert("Added to Basket");
       return {
         ...state,
         basket: [...state.basket, action.item],
-        alert('Added to basket'),
       };
     
     case 'EMPTY_BASKET':
