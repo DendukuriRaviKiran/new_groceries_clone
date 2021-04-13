@@ -14,7 +14,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         basket: [...state.basket, action.item],
-        alert('Added to basket');
+        alert('Added to basket'),
       };
     
     case 'EMPTY_BASKET':
