@@ -1,3 +1,4 @@
+import sounder from "./patt_se_headshot.mp3";
 export const initialState = {
   basket: [],
   user: null
@@ -11,7 +12,7 @@ const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
     case 'ADD_TO_BASKET':
-      var audio = new Audio('patt_se_headshot.mp3');
+      var audio = new Audio(sounder);
       audio.play();
       return {
         ...state,
