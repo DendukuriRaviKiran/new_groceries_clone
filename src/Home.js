@@ -115,6 +115,8 @@ function Home() {
                 ))
               }
             </div>
+        
+          </div>
         <Popup trigger={timedPopup} setTrigger={setTimedPopup}> 
         <h3>Instructions to Site</h3>
         <p>
@@ -134,7 +136,6 @@ function Home() {
           5. Pay with free credits and leave
         </p>
       </Popup>
-          </div>
         </div>
     )
 }
