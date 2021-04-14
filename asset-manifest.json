@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/new_groceries_clone/static/css/main.168362da.chunk.css",
-    "main.js": "/new_groceries_clone/static/js/main.6e7acff5.chunk.js",
-    "main.js.map": "/new_groceries_clone/static/js/main.6e7acff5.chunk.js.map",
+    "main.js": "/new_groceries_clone/static/js/main.5ad9eef4.chunk.js",
+    "main.js.map": "/new_groceries_clone/static/js/main.5ad9eef4.chunk.js.map",
     "runtime-main.js": "/new_groceries_clone/static/js/runtime-main.01af34c8.js",
     "runtime-main.js.map": "/new_groceries_clone/static/js/runtime-main.01af34c8.js.map",
     "static/js/2.45feb513.chunk.js": "/new_groceries_clone/static/js/2.45feb513.chunk.js",
@@ -14,12 +14,13 @@
     "static/js/2.45feb513.chunk.js.LICENSE.txt": "/new_groceries_clone/static/js/2.45feb513.chunk.js.LICENSE.txt",
     "static/media/Naughtyamericalogo.fa5737dc.png": "/new_groceries_clone/static/media/Naughtyamericalogo.fa5737dc.png",
     "static/media/home_backgroundImage.24b8ea97.jpg": "/new_groceries_clone/static/media/home_backgroundImage.24b8ea97.jpg",
+    "static/media/patt_se_headshot.a4993900.mp3": "/new_groceries_clone/static/media/patt_se_headshot.a4993900.mp3",
     "static/media/rocket-ship-logo.24024aff.jpg": "/new_groceries_clone/static/media/rocket-ship-logo.24024aff.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.01af34c8.js",
     "static/js/2.45feb513.chunk.js",
     "static/css/main.168362da.chunk.css",
-    "static/js/main.6e7acff5.chunk.js"
+    "static/js/main.5ad9eef4.chunk.js"
   ]
 }
